@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>choose</title>
+</head>
+<body>
+<form action="http://127.0.0.1:5000/result" method="POST">
+    <p>Matching node for the current patient: {{predicted}}</p>
+    <p>Please choose a plan</p>
+	<p>enter c for cost-optimized plan, t for time optimized plan<input type="text" name="sel" id='sel'/></p>
+	<p><input type="submit" value="submit"/></p>
+</form>
+</body>
+</html>
